@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Taste Life</h1>
+    <nav>
+        <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="restaurantes.html">Restaurantes</a> </li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>  
+    <h2>Contacto</h2>
+    <h3>Para nosotros es muy importante conocer tus opiniones, dudas e <br>
+        inquietudes sobre nosotros y nuestras guias.</h3>
+    <!--Fomulario contacto-->    
+    <form action="enviar.php" method="post">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Usuario">
+            <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido">
+            <br>
+        <label for="Correco electronico">Correo electronico</label>
+        <input type="text" name="Correo electronico">
+            <br>
+        <p>Escribe tus comentarios:</p>
+        <textarea name="areatexto" id="" cols="30" rows="5" placeholder="Deja tus comentarios"></textarea>
+            <br>
+            <input type="Radio" name="Opcion" id="">
+            <label for=" ">Estoy de acuerdo con la política de manejo de datos y T&C *</label>
+            <br><br>
+        <!--Boton enviar-->
+        <input type="submit" value="enviar">
+    </form>
+<footer></footer>
+    
+</body>
+</html>
