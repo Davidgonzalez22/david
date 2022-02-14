@@ -1,0 +1,103 @@
+@media only screen and (min-width: 768px) {
+  .body {
+    background-color: blanchedalmond;
+  }
+}
+h1 {
+  color: #705E78;
+  font-family: lato;
+}
+
+h2 {
+  font-family: oswald;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.h2--color {
+  color: brown;
+}
+
+.fondo {
+  background-color: #F2F2F2;
+}
+
+ul {
+  text-align: right;
+  padding-right: 5%;
+}
+
+.menu {
+  text-align: right;
+}
+
+.banner {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #04050A;
+  width: 1fr;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  margin: 20px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1:hover .box2 {
+  transform: scale(1.1);
+}
+
+.texto1 {
+  padding: 10px;
+}
+
+.seccion2 {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 60% 30%;
+}
+
+.imgseccion2 {
+  margin-left: 5%;
+}
+
+.textoseccion2 {
+  align-items: center;
+  padding-top: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.seccion2 {
+  background-color: black;
+}
+
+.seccion2__imgseccion2 {
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.seccion2__imgseccion2__textoseccion2 {
+  color: white;
+  margin-top: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */
